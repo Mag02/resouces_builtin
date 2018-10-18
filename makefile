@@ -45,7 +45,7 @@ clean:
 	@rm -f *.o
 	@rm -f $(TGTNAME)
 
-### Resource Compilation 'sfd' (builtin)
+### Resource Compilation (builtin)
 %.o: %.txt
 	@echo compiling $<...
 	@$(OBJCOPY) $(OBJCPYFLAGS) $< $@
